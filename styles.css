@@ -34,8 +34,40 @@ p {
 .divider {
   border-bottom: 1px solid #888989;
   margin: 2px 0;
+  clear: right;
 }
 
 .right {
   float: right;
+}
+
+.lg {
+  height: 10px;
+}
+
+.lg, .md {
+  background-color: black;
+  border: 0;
+}
+
+.calories-info h1 {
+  margin: -5px -2px;
+  overflow: hidden;
+}
+
+.calories-info span {
+  font-size: 1.2em;
+  margin-top: -7px;
+}
+
+.md {
+  height: 5px;
+}
+
+.indent {
+  margin-left: 1em;
+}
+
+.daily-value p {
+  border-bottom: 1px solid #888989;
 }
